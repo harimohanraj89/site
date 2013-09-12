@@ -4,7 +4,7 @@
 
 			<h2>Audio Programming</h2>
 
-			<a href="./string.php">
+			<a class="projentrylink" href="proj-sonification.php">
 				<div class="projentry boxsize">
 					<div id="imgwrapper"></div>
 					<div id="contentwrapper">
@@ -18,7 +18,7 @@
 				</div>
 			</a>
 
-			<a href="./string.php">
+			<a class="projentrylink" href="https://files.nyu.edu/hm992/public/IHearNY3D/home.html">
 				<div class="projentry boxsize">
 					<div id="imgwrapper"></div>
 					<div id="contentwrapper">
@@ -32,15 +32,15 @@
 				</div>
 			</a>
 
-			<a href="./string.php">
+			<a class="projentrylink" href="./string.php">
 				<div class="projentry boxsize">
 					<div id="imgwrapper"></div>
 					<div id="contentwrapper">
 						<h3>Virtual Guitar Processor</h3>
 						<p class="projentrytext">
-							A physical model of a vibrating string,
-							obtained by solving the one-dimensional
-							wave equation.
+							A software guitar effects rack, including
+							distortion, EQ, reverb, and delay based effects.
+							Built in PureData.
 						</p>
 					</div>
 				</div>

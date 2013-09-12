@@ -4,21 +4,21 @@
 
 			<h2>Physics Modelling</h2>
 
-        	<a href="./balls.php">
+        	<a class="projentrylink" href="./proj-balls.php">
 				<div class="projentry boxsize">
 					<div id="imgwrapper"></div>
 					<div id="contentwrapper">
 						<h3>Balls in a Box</h3>
 						<p class="projentrytext">
 							A physics simulation of balls floating
-							around in a box, utilizing the velocity
-							verlet algorithm.
+							around in a box, written in JavaScript,
+							utilizing the velocity verlet algorithm.
 						</p>
 					</div>
 				</div>
 			</a>
 
-			<a href="./string.php">
+			<a class="projentrylink" href="./proj-string.php">
 				<div class="projentry boxsize">
 					<div id="imgwrapper"></div>
 					<div id="contentwrapper">
