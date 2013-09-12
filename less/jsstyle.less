@@ -1,0 +1,199 @@
+/* ======================================= */
+/*				style.css				   */
+/* ======================================= */
+
+@background-main:#ffffff;
+@background-side:#333;
+@heading-color:#68b;
+@font-main:#444;
+@canvas-width:600px;
+@canvas-background:#e5e5e5;
+@canvas-border:#68b;
+@button-color:#999;
+@paramBorderColor:@canvas-border;
+// @button-color:@heading-color;
+
+
+div#menu {
+	padding:0;
+	margin:0;
+
+	position:absolute;
+	top:0;
+	left:0;
+	h2 {
+		margin:0;
+		padding-left:24px;
+		padding-top:0;
+
+		font-family:"Oxygen",sans-serif;
+		font-weight:300;
+		font-size : 36px;
+		color:@heading-color;
+	}
+
+	ul#menulist {
+		position:absolute;
+		// top:36px;
+		// left:24px;
+		top:0;
+		left:0;
+		
+		margin:0;
+		padding:0;
+		
+		list-style-type:none;
+		background:#eaeaea;
+
+		box-shadow:1px 1px 1px #ccc;
+
+		li {
+			padding-top:12px;
+			padding-bottom:12px;
+			padding-left:24px;
+			text-align:left;
+			width:120px;
+
+			font-family:"Oxygen",sans-serif;
+			font-weight:300;
+			font-size:24px;
+			color:@heading-color;
+			border-bottom:1px solid #d5d5d5;
+
+			transition:color 0.3s, background 0.3s;
+			-webkit-transition:color 0.3s, background 0.3s;
+
+			&:hover {
+				color:@heading-color + #112;
+				background:#f5f5f5;
+			}
+		}
+
+		a {
+			text-decoration:none;
+			color:@heading-color;	
+		}
+
+		
+	}
+}
+
+p.desc {
+	width:100%;
+	padding:0;
+	padding-top:0;
+	padding-bottom:24px;
+	margin:0;
+
+	font-family:"Mako",sans-serif;
+	text-align:justify;
+	font-size : 20px;
+	color:@font-main;
+}
+
+.button1 {
+	float:left;
+	padding-left:24px;
+	padding-right:24px;
+	padding-top:12px;
+	padding-bottom:12px;
+	background-color:@button-color;
+
+	border:none;
+	box-shadow:none;
+	border-radius:2px;
+
+	color:#fff;
+	font-family:Verdana;
+	font-size:14px;
+
+	&:active {
+		background-color: @button-color - #222;
+	}
+}
+
+div.narrow {
+	clear:both;
+	width:@canvas-width;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div#physicswrapper {
+
+	margin-bottom:96px;
+	div#controlbuttonwrapper {
+
+	}
+
+	div#canvaswrapper {
+
+		#mainCanvas {
+			width:600px;
+			height:400px;
+			background-color:@canvas-background;
+			border:1px solid @canvas-border;
+		}
+	}
+
+	div#parameterswrapper {
+
+		height:0px;
+		width:@canvas-width - 30px;
+		padding-left:15px;
+		padding-right:15px;
+		overflow:hidden;
+
+		background-color:#f3f3f3;
+
+		box-shadow:0 0 10px rgba(0,0,0,0.5) inset;
+
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+
+		border-left:1px solid @paramBorderColor;;
+		border-right:1px solid @paramBorderColor;
+
+		transition: height 0.3s ease-out;
+		-webkit-transition: height 0.3s ease-out;
+
+		div.parameter {
+			height:150px;
+			margin-top:10px;
+			float:left;
+
+			margin-right:35px;
+
+			div.parameterheading {
+				font-family:"Oxygen", sans-serif;
+				color:@heading-color;
+			}
+
+			div.parametercontent {
+				form {
+					font-family:"Mako", sans-serif;
+					color:#333;
+				}
+
+				input.numinput {
+					width:50px;
+					height:30px;
+					text-align:center;
+					color:#333;
+					font-family:"Mako", sans-serif;
+					font-size:14px;
+				}
+			}
+		}
+
+		div#updateparameterswrapper {
+			margin-right:0;
+			float:right;
+		}
+	}
+}
+
+
+
+
+
