@@ -1,5 +1,29 @@
+h1.pagetitle {
+	position:relative;
+	float:left;
+	width:70px;
+	padding-right:30px;
+	margin-top:0;
+	line-height:42px;
+	border-right:1px solid @borderColor;
+}
+
 div.topbar {	
 	.glcolumn(2);
+}
+
+div.topbarcontainer {
+	clear:none;
+	float:right;
+	width:80%;
+	// margin-left:0;
+	// margin-right:0;
+	// padding-left:0;
+	// padding-right:0;
+}
+
+div.topbarcontainer, div.topbarcontainer:before, div.topbarcontainer.after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
 div.gridentry {
@@ -17,6 +41,11 @@ div.projentry {
 		p.projentrytext {
 			font-size:16px;
 		}
+	}
+
+	&:hover {
+		padding-top:36px;
+		padding-bottom:12px;
 	}
 }
 

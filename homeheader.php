@@ -13,7 +13,7 @@
     </head>
     <body>
         <div id="page">
-    	   <h1 class="pagetitle maintitle"><a href="index.php">Hari Mohanraj</a></h1>
+    	   <h1 class="maintitle"><a href="index.php">Hari Mohanraj</a></h1>
         
         
     <!-- -->  

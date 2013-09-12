@@ -51,8 +51,26 @@ h1.pagetitle a:hover {
   color: #7799dd;
 }
 h1.maintitle {
+  width: auto;
+  margin-top: 12px;
   margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Oxygen", Arial, sans-serif;
+  font-weight: 100;
   font-size: 50px;
+  color: #333;
+}
+h1.maintitle a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out;
+}
+h1.maintitle a:hover {
+  color: #7799dd;
 }
 h2,
 h3,
@@ -135,6 +153,7 @@ div.topbarcurrent:hover {
 div.topbarcontainer {
   width: 100%;
   margin: 0;
+  clear: both;
   margin-bottom: 24px;
   border-top: 1px solid #c0c0c0;
   border-bottom: 1px solid #c0c0c0;
@@ -222,6 +241,7 @@ div.projentry {
   padding-top: 24px;
   padding-bottom: 24px;
   border-top: 1px solid #c0c0c0;
+  transition: padding 0.25s ease-out, background 0.25s ease-out;
 }
 div.projentry:before,
 div.projentry:after {
@@ -235,7 +255,7 @@ div.projentry div#imgwrapper {
   width: 100%;
   height: 200px;
   float: left;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   margin-bottom: 24px;
 }
 div.projentry div#contentwrapper {
@@ -243,7 +263,14 @@ div.projentry div#contentwrapper {
   float: right;
 }
 div.projentry div#contentwrapper h3 {
+  transition: color 0.25s ease-out;
   margin-top: 0;
+}
+div.projentry:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+div.projentry:hover div#contentwrapper h3 {
+  color: #7799dd;
 }
 /* FOOTER ELEMENTS */
 div.footercontainer {
@@ -278,11 +305,32 @@ div.footertextcontainer {
   }
 }
 @media screen and (min-width: 800px) {
+  h1.pagetitle {
+    position: relative;
+    float: left;
+    width: 70px;
+    padding-right: 30px;
+    margin-top: 0;
+    line-height: 42px;
+    border-right: 1px solid #c0c0c0;
+  }
   div.topbar {
     display: inline;
     float: left;
     width: 16.666666666666664%;
     margin: 0 0;
+  }
+  div.topbarcontainer {
+    clear: none;
+    float: right;
+    width: 80%;
+  }
+  div.topbarcontainer,
+  div.topbarcontainer:before,
+  div.topbarcontainer.after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
   }
   div.gridentry {
     display: inline;
@@ -299,5 +347,9 @@ div.footertextcontainer {
   }
   div.projentry div#contentwrapper p.projentrytext {
     font-size: 16px;
+  }
+  div.projentry:hover {
+    padding-top: 36px;
+    padding-bottom: 12px;
   }
 }
