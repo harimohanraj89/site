@@ -15,7 +15,7 @@
 
 			<a href="./cat-webdev.php">
 				<div class="gridentry boxsize">
-					<img src="./images/image-web.jpg" width="100%">
+					<img src="./images/image-web.png" width="100%">
 					<div class="gridentrymask"></div>
 					<div class="gridentrytext boxsize">Web Development</div>
 				</div>
@@ -23,7 +23,7 @@
 
 			<a href="./cat-gamedev.php">
 				<div class="gridentry boxsize">
-					<img src="./images/image-game.jpg" width="100%">
+					<img src="./images/image-game.png" width="100%">
 					<div class="gridentrymask"></div>
 					<div class="gridentrytext boxsize">Game Development</div>
 				</div>
@@ -31,7 +31,7 @@
 
 			<a href="./cat-physics.php">
 				<div class="gridentry boxsize">
-					<img src="./images/image-physics.gif" width="100%">
+					<img src="./images/image-physics.png" width="100%">
 					<div class="gridentrymask"></div>
 					<div class="gridentrytext boxsize">Physics Modeling</div>
 				</div>
@@ -39,7 +39,7 @@
 
 			<a href="./cat-music.php">
 				<div class="gridentry boxsize">
-					<img src="./images/image-music.jpg" width="100%">
+					<img src="./images/image-music.png" width="100%">
 					<div class="gridentrymask"></div>
 					<div class="gridentrytext boxsize">Music</div>
 				</div>
@@ -47,7 +47,7 @@
 
 			<a href="./cat-about.php">
 				<div class="gridentry boxsize">
-					<img src="./images/image-about.jpg" width="100%">
+					<img src="./images/image-about.png" width="100%">
 					<div class="gridentrymask"></div>
 					<div class="gridentrytext boxsize">About</div>
 				</div>

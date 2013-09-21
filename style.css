@@ -224,8 +224,8 @@ div.gridentry div.gridentrytext {
   z-index: 2;
   font-family: "Mako", sans-serif;
   font-size: 24px;
-  color: #666;
-  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+  color: #dedede;
+  text-shadow: 1px 1px #010101;
   vertical-align: middle;
   transition: color 0.25s ease-out, background 0.1s ease-out, text-shadow 0.1s ease-out;
   -webkit-transition: color 0.25s ease-out, background 0.1s ease-out, text-shadow 0.1s ease-out;
