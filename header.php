@@ -7,7 +7,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Hari Mohanraj</title>
 
-        <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">        <!-- FONTAWESOME -->
+        <link href='http://fonts.googleapis.com/css?family=Mako|Oxygen:300' rel='stylesheet' type='text/css'>   <!-- GOOGLEFONTS -->
         <link rel="stylesheet" type="text/css" href="style.css">
         
     </head>

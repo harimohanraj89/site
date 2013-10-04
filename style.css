@@ -31,7 +31,7 @@ div#page {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 85%;
   max-width: 960px;
   background: #fdfdfd;
 }
@@ -99,6 +99,20 @@ p {
   font-family: Verdana;
   line-height: 32px;
   color: #333;
+}
+i {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  color: #777;
+}
+i.icon-facebook:hover {
+  color: #3b5998;
+}
+i.icon-twitter:hover {
+  color: #00aced;
+}
+i.icon-youtube:hover {
+  color: #bb0000;
 }
 a {
   transition: color 0.25s ease-out;
@@ -181,6 +195,26 @@ div.bodycontainer {
   margin: 0;
   min-height: 500px;
 }
+div.bodycontainer img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #c0c0c0;
+  padding: 24px;
+}
+div.bodycontainer img:hover {
+  border: 1px solid #333;
+}
+div.bodycontainer img.large {
+  max-width: 720px;
+}
+div.bodycontainer img.medium {
+  max-width: 480px;
+}
+div.bodycontainer img.small {
+  max-width: 320px;
+}
 div.bodytextcontainer {
   width: 100%;
   float: right;
@@ -193,6 +227,7 @@ div.gridentry {
   position: relative;
   margin-bottom: 20px;
   border: 1px solid rgba(0, 0, 0, 0);
+  height: 200px;
   transition: border 0.25s ease-out;
   -webkit-transition: border 0.25s ease-out;
 }
@@ -213,7 +248,7 @@ div.gridentry div.gridentrymask {
   z-index: 1;
   transition: background 0.25s ease-out;
   -webkit-transition: background 0.25s ease-out;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0);
 }
 div.gridentry div.gridentrytext {
   position: absolute;
@@ -224,23 +259,30 @@ div.gridentry div.gridentrytext {
   z-index: 2;
   font-family: "Mako", sans-serif;
   font-size: 24px;
-  color: #dedede;
-  text-shadow: 1px 1px #010101;
+  color: #555;
+  text-align: center;
   vertical-align: middle;
   transition: color 0.25s ease-out, background 0.1s ease-out, text-shadow 0.1s ease-out;
   -webkit-transition: color 0.25s ease-out, background 0.1s ease-out, text-shadow 0.1s ease-out;
   background: rgba(0, 0, 0, 0);
 }
-div.gridentry:hover {
-  border: 1px solid #c0c0c0;
+div.gridentry i {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #777;
+  width: 100%;
+  text-align: center;
+  line-height: 140px;
+  font-size: 120px;
+  vertical-align: middle;
+  transition: font-size 0.25s ease-out, color 0.25s ease-out;
+  -webkit-transition: font-size 0.25s ease-out, color 0.25s ease-out;
 }
-div.gridentry:hover .gridentrytext {
-  text-shadow: none;
-  background: #fdfdfd;
-  color: #7799dd;
-}
-div.gridentry:hover .gridentrymask {
-  background: rgba(0, 0, 0, 0.4);
+div.gridentry:hover i {
+  font-size: 132px;
+  color: #333;
 }
 a.projentrylink {
   text-decoration: none;
@@ -305,6 +347,7 @@ div.footercontainer {
   width: 100%;
   height: 25px;
   margin: 0;
+  margin-top: 24px;
   margin-bottom: 6px;
   clear: both;
   border-top: 1px solid #c0c0c0;
@@ -316,6 +359,14 @@ div.footertextcontainer {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: center;
   color: #777777;
+}
+div.footertextcontainer a {
+  text-decoration: underline;
+  color: inherit;
+  font-size: inherit;
+}
+div.footertextcontainer a:hover {
+  color: inherit;
 }
 @media screen and (min-width: 600px) {
   div.topbar {
