@@ -32,7 +32,7 @@
 			</div>
 		</a>
 
-		<a class="projentrylink" href="./proj-virutalgp.php">
+		<a class="projentrylink" href="./proj-virtualgp.php">
 			<div class="projentry boxsize">
 				<div id="imgwrapper"></div>
 				<div id="contentwrapper">
