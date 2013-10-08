@@ -22,15 +22,18 @@
 			<a href="http://kotaku.com/a-video-game-designed-for-drunk-people-869731464" target="_blank">an article by
 			Kotaku</a>.
 		</p>
+		
+		<a href="http://www.studio-mercato.com" target="_blank">
+			<img class="small boxsize" src="images/sm.png" />
+		</a>
+		
 		<p>
 			That team, along with me, is now Studio Mercato. We're an indie game
 			studio based in New York City, that also functions as a label for other
 			indie game developers. <a href="http://www.studio-mercato.com" target="_blank">Check us out here</a>.
 		</p>
 
-		<a href="http://www.studio-mercato.com" target="_blank">
-			<img class="small" src="images/sm.png" />
-		</a>
+		
 
 
 

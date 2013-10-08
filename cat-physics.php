@@ -6,7 +6,9 @@
 
         	<a class="projentrylink" href="./proj-balls.php">
 				<div class="projentry boxsize">
-					<div id="imgwrapper"></div>
+					<div id="imgwrapper">
+						<img src="images/thumbballs.png">
+					</div>
 					<div id="contentwrapper">
 						<h3>Balls in a Box</h3>
 						<p class="projentrytext">
@@ -20,7 +22,9 @@
 
 			<a class="projentrylink" href="./proj-string.php">
 				<div class="projentry boxsize">
-					<div id="imgwrapper"></div>
+					<div id="imgwrapper">
+						<img src="images/thumbstring.png">
+					</div>
 					<div id="contentwrapper">
 						<h3>Vibrating String</h3>
 						<p class="projentrytext">

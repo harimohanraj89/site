@@ -4,6 +4,8 @@
 
 		<h2>About Me</h2>
 
+		<img id="aboutimage boxsize" class="tiny" src="images/hmpic.jpg" />
+
 		<p>
 			Hi there. I am a graduate student at New York University, majoring in 
 			<a href="http://www.studio-mercato.com" target="_blank">Music Technology</a>.

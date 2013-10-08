@@ -4,9 +4,11 @@
 
 		<h2>Web Development</h2>
 
-		<a class="projentrylink" href="http://nocturnedevs.com" target="_blank">
+		<a class="projentrylink" href="proj-nocturne.php">
 			<div class="projentry boxsize">
-				<div id="imgwrapper"></div>
+				<div id="imgwrapper">
+					<img src="images/thumbnocturne.png">
+				</div>
 				<div id="contentwrapper">
 					<h3>Nocturne</h3>
 					<p class="projentrytext">
@@ -19,7 +21,9 @@
 
 		<a class="projentrylink" href="http://sonify.net" target="_blank">
 			<div class="projentry boxsize">
-				<div id="imgwrapper"></div>
+				<div id="imgwrapper">
+					<img src="images/thumbsonify.png">
+				</div>
 				<div id="contentwrapper">
 					<h3>Sonify</h3>
 					<p class="projentrytext">
@@ -33,7 +37,9 @@
 
 		<a class="projentrylink" href="https://files.nyu.edu/hm992/public/IHearNY3D/home.html" target="_blank">
 			<div class="projentry boxsize">
-				<div id="imgwrapper"></div>
+				<div id="imgwrapper">
+					<img src="images/thumbihearny3d.png">
+				</div>
 				<div id="contentwrapper">
 					<h3>I Hear NY3D Website</h3>
 					<p class="projentrytext">

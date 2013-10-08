@@ -18,9 +18,11 @@
 			</div>
 		</a>
 
-		<a class="projentrylink" href="https://files.nyu.edu/hm992/public/IHearNY3D/home.html">
+		<a class="projentrylink" target="_blank" href="https://files.nyu.edu/hm992/public/IHearNY3D/home.html">
 			<div class="projentry boxsize">
-				<div id="imgwrapper"></div>
+				<div id="imgwrapper">
+					<img src="images/thumbihearny3d.png">
+				</div>
 				<div id="contentwrapper">
 					<h3>I Hear NY3D</h3>
 					<p class="projentrytext">
@@ -34,7 +36,9 @@
 
 		<a class="projentrylink" href="./proj-virtualgp.php">
 			<div class="projentry boxsize">
-				<div id="imgwrapper"></div>
+				<div id="imgwrapper">
+					<img src="images/virtualgp.png">
+				</div>
 				<div id="contentwrapper">
 					<h3>Virtual Guitar Processor</h3>
 					<p class="projentrytext">

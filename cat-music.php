@@ -6,7 +6,9 @@
 
 			<a class="projentrylink" href="http://www.youtube.com/playlist?list=PL99b7fMD_L-vPbapymhPjk_bN9zflqjSq" target="_blank">
 				<div class="projentry boxsize">
-					<div id="imgwrapper"></div>
+					<div id="imgwrapper">
+						<img src="images/thumbbass.png">
+					</div>
 					<div id="contentwrapper">
 						<h3>Electric Bass</h3>
 						<p class="projentrytext">
@@ -19,9 +21,11 @@
 				</div>
 			</a>
 
-			<a class="projentrylink" href="http://www.youtube.com/user/skfreak914" target="_blank">
+			<a class="projentrylink" href="http://www.youtube.com/playlist?list=PL99b7fMD_L-vc3Upvly4dVpuhSKkQ-qwO" target="_blank">
 				<div class="projentry boxsize">
-					<div id="imgwrapper"></div>
+					<div id="imgwrapper">
+						<img src="images/thumbperformance.png">
+					</div>
 					<div id="contentwrapper">
 						<h3>Performance</h3>
 						<p class="projentrytext">
@@ -35,7 +39,9 @@
 
 			<a class="projentrylink" href="http://www.soundcloud.com/harimohan" target="_blank">
 				<div class="projentry boxsize">
-					<div id="imgwrapper"></div>
+					<div id="imgwrapper">
+						<img src="images/thumbcomposition.png">
+					</div>
 					<div id="contentwrapper">
 						<h3>Composition</h3>
 						<p class="projentrytext">

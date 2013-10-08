@@ -91,6 +91,9 @@ h6 {
 h3 {
   font-size: 28px;
 }
+h4 {
+  font-size: 24px;
+}
 p {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -99,6 +102,18 @@ p {
   font-family: Verdana;
   line-height: 32px;
   color: #333;
+}
+ul {
+  font-size: 13px;
+  font-family: Verdana;
+  line-height: 24px;
+  color: #333;
+}
+ul li {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
 }
 i {
   margin-right: 24px;
@@ -119,20 +134,26 @@ a {
   -webkit-transition: color 0.25s ease-out;
 }
 a:link {
+  /* unvisited link */
+
   color: #9999B4;
   text-decoration: none;
 }
-/* unvisited link */
 a:visited {
+  /* visited link */
+
   color: #9999B4;
   text-decoration: none;
 }
-/* visited link */
 a:hover {
+  /* mouse over link */
+
   color: #7799dd;
   text-decoration: none;
 }
-/* mouse over link */
+a.distinct {
+  text-decoration: underline;
+}
 /* TOP BAR ELEMENTS */
 div.topbar {
   display: inline;
@@ -195,13 +216,19 @@ div.bodycontainer {
   margin: 0;
   min-height: 500px;
 }
+div.bodycontainer a.imglink {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 div.bodycontainer img {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #c0c0c0;
-  padding: 24px;
+  padding: 6px;
 }
 div.bodycontainer img:hover {
   border: 1px solid #333;
@@ -214,6 +241,9 @@ div.bodycontainer img.medium {
 }
 div.bodycontainer img.small {
   max-width: 320px;
+}
+div.bodycontainer img.tiny {
+  max-width: 240px;
 }
 div.bodytextcontainer {
   width: 100%;
@@ -325,8 +355,17 @@ div.projentry div#imgwrapper {
   width: 100%;
   height: 200px;
   float: left;
-  background: rgba(0, 0, 0, 0.4);
   margin-bottom: 24px;
+}
+div.projentry div#imgwrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: none;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
 }
 div.projentry div#contentwrapper {
   width: 100%;
@@ -419,7 +458,13 @@ div.footertextcontainer a:hover {
     margin-bottom: 20px;
   }
   div.projentry div#imgwrapper {
+    height: auto;
     width: 35%;
+  }
+  div.projentry div#imgwrapper img {
+    margin: 0;
+    width: 100%;
+    height: auto;
   }
   div.projentry div#contentwrapper {
     width: 60%;
