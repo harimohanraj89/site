@@ -361,8 +361,9 @@ div.projentry div#imgwrapper img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
-  border: none;
+  background: #fdfdfd;
+  border: 1px solid #c0c0c0;
+  padding: 6px;
   max-height: 100%;
   width: auto;
   max-width: 100%;
@@ -391,6 +392,11 @@ div.videowrapper iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid #c0c0c0;
+  padding: 6px;
+}
+div.videowrapper iframe:hover {
+  border: 1px solid #333;
 }
 div.videowrapper p.caption {
   margin-left: 15%;

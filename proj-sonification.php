@@ -66,7 +66,7 @@
         </p>
 
         <div class="videowrapper">
-            <iframe width="320" height="240" src="http://www.youtube.com/embed/vUmi-EeX-EE?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="boxsize" width="320" height="240" src="http://www.youtube.com/embed/vUmi-EeX-EE?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
 
             <p class="caption">
                 A healthy brain, where pitch is mapped to the y-axis, and time to the x-axis.

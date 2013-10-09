@@ -390,9 +390,9 @@ div.projentry {
 
 		img {
 			.center;
-			
-			padding:0;
-			border:none;
+			background:@backgroundColor;	
+			border:1px solid @borderColor;
+			padding:6px;
 
 			max-height:100%;
 			width:auto;
@@ -427,6 +427,11 @@ div.videowrapper {
 
 	iframe {
 		.center;
+		border:1px solid @borderColor;
+		padding:6px;
+		&:hover {
+			border:1px solid #333;
+		}
 	}
 
 	p.caption {
