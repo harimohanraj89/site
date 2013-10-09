@@ -6,7 +6,9 @@
 
 		<a class="projentrylink" href="proj-sonification.php">
 			<div class="projentry boxsize">
-				<div id="imgwrapper"></div>
+				<div id="imgwrapper">
+					<img src="images/thumbsonification.png">
+				</div>
 				<div id="contentwrapper">
 					<h3>Immersive Sonification</h3>
 					<p class="projentrytext">

@@ -8,6 +8,7 @@
 @linkHoverColor:#79d;
 @borderColor:#C0C0C0;
 @backgroundColor:#FDFDFD;
+@subtleTextColor:#777777;
 
 /* GENERIC ELEMENTS */
 body {
@@ -420,6 +421,27 @@ div.projentry {
 	}
 }
 
+
+div.videowrapper {
+	.column(12);
+
+	iframe {
+		.center;
+	}
+
+	p.caption {
+		margin-left:15%;
+		margin-right:15%;
+
+		color:@subtleTextColor;
+		font-size:12px;
+		line-height:16px;
+		text-align:center;
+	}
+}
+
+
+
 /* FOOTER ELEMENTS */
 div.footercontainer {
 	width:100%;
@@ -440,7 +462,7 @@ div.footertextcontainer {
 	font-size:12px;
 	font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
 	text-align:center;
-	color:#777777;
+	color:@subtleTextColor;
 
 	a {
 		text-decoration:underline;

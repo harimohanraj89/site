@@ -381,6 +381,25 @@ div.projentry:hover {
 div.projentry:hover div#contentwrapper h3 {
   color: #7799dd;
 }
+div.videowrapper {
+  display: inline;
+  float: left;
+  width: 97.91666666666666%;
+  margin: 0 1.0416666666666665%;
+}
+div.videowrapper iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.videowrapper p.caption {
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #777777;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
 /* FOOTER ELEMENTS */
 div.footercontainer {
   width: 100%;
@@ -475,5 +494,11 @@ div.footertextcontainer a:hover {
   div.projentry:hover {
     padding-top: 36px;
     padding-bottom: 12px;
+  }
+  div.videowrapper {
+    display: inline;
+    float: left;
+    width: 47.91666666666667%;
+    margin: 0 1.0416666666666665%;
   }
 }
