@@ -52,4 +52,19 @@
 			</div>
 		</a>
 
+		<a class="projentrylink" href="./proj-twodmixer.php">
+			<div class="projentry boxsize">
+				<div id="imgwrapper">
+					<img src="images/thumbtwodmixer.png">
+				</div>
+				<div id="contentwrapper">
+					<h3>Two-Dimensional Mixer</h3>
+					<p class="projentrytext">
+						A two-dimensional mixer that blends four
+						separate audio sources. Built in PureData.
+					</p>
+				</div>
+			</div>
+		</a>
+
 <?php include "footer.php" ?>
