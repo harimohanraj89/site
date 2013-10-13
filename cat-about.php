@@ -8,8 +8,8 @@
 
 		<p>
 			Hi there. I am a graduate student at New York University, majoring in 
-			<a href="http://www.studio-mercato.com" target="_blank">Music Technology</a>.
-			Our program covers everything from reecording and mixing in the studio to
+			<a href="http://steinhardt.nyu.edu/music/technology/" target="_blank">Music Technology</a>.
+			Our program covers everything from recording and mixing in the studio to
 			programming complex audio signal processing systems. As you can probably tell,
 			I enjoy the more technical aspects of our program, and work on projects involving
 			immersive audio, game audio, and the web. I joined NYU in the Fall of 2011,
@@ -38,12 +38,13 @@
 		</p>
 
 		<p>
-			You can also reach out through any of the following social media networks.
+			You can also find me on any of the following networks.
 		</p>
 
 		
 		<a href="http://www.twitter.com/hari_mohanraj" target="_blank"><i class="icon-twitter icon-2x"></i></a>
 		<a href="http://www.facebook.com/harimohan" target="_blank"><i class="icon-facebook icon-2x"></i></a>
+		<a href="http://www.github.com/harimohanraj89" target="_blank"><i class="icon-github icon-2x"></i></a>
 		<a href="http://www.youtube.com/skfreak914" target="_blank"><i class="icon-youtube icon-2x"></i></a>
 		<a href="http://www.soundcloud.com/harimohan" target="_blank"><i class="icon-soundcloud icon-2x"></i></a>
 

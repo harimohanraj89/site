@@ -129,6 +129,9 @@ i.icon-twitter:hover {
 i.icon-youtube:hover {
   color: #bb0000;
 }
+i.icon-github:hover {
+  color: #4183c4;
+}
 a {
   transition: color 0.25s ease-out;
   -webkit-transition: color 0.25s ease-out;
