@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="page">
-        	<h1 class="pagetitle"><a href="index.php">HM</a></h1>
+        	<h1 class="pagetitle"><a href="/">HM</a></h1>
             
             
             <div class="topbarcontainer">
